@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.encabezado-envio{
+    background-color: #b56576;
+    width: 1300px;
+    margin-left: 30px;
+}
+
+
+.buscador{
+    border-color: #b56576;
+    color: #b56576;
+}
+
+.links{
+    text-decoration: none;
+    color: #b56576;
+}
+
+.dar{
+    color: #b56576;
+    position: relative;
+    left: 350px;
+}
+
+.iconos-varios{
+    color: #b56576;
+}
+
+.hamburguer{
+    display:none
+}
+
+ul{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+} 
+
+li{
+    display:inline;
+}
+
+
+/*HTML: INDEX*/
+
+.carrusel{
+    width: 1300px;
+    margin-left: 30px;
+}
+
+
+.info-util{
+    width: 900px;
+}
+
+.informacion-envioypago{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #b56576;
+    display: inline-block;
+
+}
+
+.novedades{
+    color: white;
+    text-align: center;
+    background-color: #b56576;
+    width: 1260px;
+    margin-left: 30px;
+    
+}
+
+.tarjetas{
+    width: 1280px;
+    position: relative;
+    left: 50px;
+}
+
+/*HTML: Productos*/
+
+.seccion-productos{
+    display: grid;
+    display: flex;
+    width: 100vw;
+    column-gap: 10px;
+    grid-template-columns: 50px 950px;
+    grid-area: categorias;
+    grid-area: todos-los-productoss;
+    grid-template-areas: 
+    "categorias todos-los-productos";
+    width: 1280px;
+}
+
+.categorias{
+    width: 150px;
+    margin: 10px 5px 0 25px;
+    padding: 0;
+}
+
+
+.subtitulo-corazon{
+display: flex;
+}
+
+.subtitulo-productos{
+    justify-content: left;
+    text-align: left;
+    color: #b56576;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+/*.cora-productos{
+    display: flex;
+    color: #b56576;
+}*/
+
+.subtitulo-categorias{
+    text-align: left;
+    justify-content: left;
+    color: #b56576;
+    font-size: medium;
+    }
+
+.lista-categorias{
+    padding: 0;
+    text-align: left;
+    justify-content: left;
+    }
+
+.li-prod{
+    color: #b56576;
+    margin: 5px 50px 5px 0;
+    font-size: medium;
+}
+
+.todos-los-productos{
+    width: 1110px;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.titulos-grandes{
+    color: white;
+    text-align: center;
+    background-color: #b56576;
+    width: 1110px;
+    margin: 10px 0 10px 0;
+}
+
+.btn-mostrar{
+    position: relative;
+    left: 440px;
+    color: white;
+    background-color: #b56576;
+    border: #b56576;
+}
+
+
+/*HTML: Talles*/
+
+.seccion-talles{
+    display: grid;
+    display: flex;
+    width: 100vw;
+    column-gap: 10px;
+    grid-template-columns: 50px 950px;
+    grid-area: guia-de-talles;
+    grid-area: informacion-talles;
+    grid-template-areas: 
+    "guia-de-talles informacion-talles";
+    width: 1280px;
+}
+
+.guia-de-talles{
+    width: 150px;
+    margin: 10px 5px 0 50px;
+    padding: 0;
+}
+
+
+.subtitulo-silueta{
+    display: flex;
+}
+
+
+.subtitulo-guia{
+    justify-content: left;
+    text-align: left;
+    color: #b56576;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+
+.silueta-imagen{
+    width: 150px;
+}
+
+
+.informacion-talles{
+    width: 650px;
+    height: 100%;
+    justify-content: center;
+}
+
+.medidas-info{
+    width: 1100px;
+    padding-left: 50px;
+}
+
+p{
+    font-size: x-large;
+    text-align: left;
+    justify-self: left;
+}
+
+/*HTML: Como comprar*/
+
+.seccion-compras{
+    display: grid;
+    display: flex;
+    width: 100vw;
+    column-gap: 10px;
+    grid-template-columns: 50px 950px;
+    grid-area: tips-de-compra;
+    grid-area: informacion-compras;
+    grid-template-areas: 
+    "tips-de-compra informacion-compras";
+    width: 1280px;
+}
+
+
+.tips-de-compra{
+    width: 150px;
+    height: 100%;
+    margin: 10px 5px 0 50px;
+    padding: 0;
+}
+
+.subtitulo-compras{
+    display: block;
+}
+
+.subtitulo-tips{
+    justify-content: left;
+    text-align: left;
+    color: #b56576;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+
+.tips-envioypago{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #b56576;
+    margin-bottom: 30px;
+}
+
+.informacion-compras{
+    width: 1000px;
+    height: 100%;
+    justify-content: center;
+}
+
+.subtitulo-informacion{
+    color: white;
+    text-align: center;
+    background-color:#b56576;
+    width: 1050px;
+    margin: 10px 0 10px 60px;
+}
+
+.subtitulo-pasos{
+    color: #b56576;
+    padding-left: 62px;
+}
+
+.pasos{
+    display: block;
+    font-size: large;
+    padding-left: 40px;
+}
+
+/*HTML: Contacto*/
+
+.seccion-contacto{
+    display: grid;
+    display: flex;
+    width: 100vw;
+    column-gap: 10px;
+    grid-template-columns: 50px 950px;
+    grid-area: informacion-contacto;
+    grid-area: informacion-formulario;
+    grid-template-areas: 
+    "informacion-contacto informacion-formulario";
+    width: 1280px;
+}
+
+.informacion-contacto{
+    width: 250px;
+    height: 100%;
+    margin: 10px 5px 0 50px;
+    padding: 0;
+}
+
+.subtitulo-contacto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b56576;
+}
+
+.texto-contacto{
+    display: flex;
+    color: #b56576;
+    font-size: medium;
+}
+
+.datos-contacto{
+margin-top: 23px;
+}
+
+
+.informacion-formulario{
+    width: 900px;
+    height: 100%;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.subtitulo-info-contacto{
+    color: white;
+    text-align: center;
+    background-color:#b56576;
+    width: 950px;
+    margin: 10px 0 10px 0;
+}
+
+.formulario-contacto{
+    margin-top: 30px;
+}
+
+.datos-formulario{
+    color: #b56576;
+    padding: 10px;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.boton-enviar{
+    margin-top: 20px;
+    color: white;
+    background-color: #b56576;
+    padding: 5px 15px 5px 15px;
+    margin-left: 700px;
+    border: #b56576;
+}
+
+/*FOOTER*/
+
+.redes{
+    background-color: #b56576;
+    width: 1300px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 425px){
+    .encabezado-envio{
+        width:1000px;
+    }
+
+    .buscador{
+        display: none;
+    }
+
+    .canasto{
+        display: none;
+    }
+    
+    nav{
+        display: flex;
+    }
+    
+    .hamburguer{
+        display: block;
+        margin-left: 100px;
+    
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .carrusel{
+        width:1000px;
+    }
+
+    .info-util{
+        margin-left: 50px;
+    }
+    
+    .novedades{
+        width: 950px;
+    }
+
+    .tarjetas{
+        width: 700px;
+        margin-left: 120px;
+    }
+
+    .seccion-productos{
+        width: 700px;
+    }
+
+    .titulos-grandes{
+        width: 850px;
+    }
+
+    .productos-card{
+        width: 600px;
+        margin-left:120px;
+        
+    }
+
+    .btn-mostrar{
+        margin-left: 0;
+    }
+
+    .redes{
+        width: 1000px;
+    }
+}
